@@ -67,6 +67,18 @@ class Player:
         print(f"Your level is now {self.level}!")
         print("")
 
+class Enemy:
+
+    def __init__(self, name, hp, damage, armour_type):
+        self.name = name
+        self.hp = hp
+        self.damage = damage
+        self.armour_type = armour_type
+
+class Town:
+
+    def __init__(self):
+        pass
 
 # Just some armour stuff
 
